@@ -1,8 +1,8 @@
 
 #this is a global variable
-marks=50
-marks2=60
-print(marks)
+marks=int(input("Enter a marks:"))
+marks2=int(input("Enter a marks2:"))
+print(marks+marks2)
 def myfunction():
     #change values of global variable
     globals()['marks']=globals()['marks']+20 
