@@ -1,5 +1,5 @@
-a="Surendra"
-b="Surendra"
+a=[1,2,3,4]
+b=[1,2,3,4]
 c=a
 #comparing and printing return values
 print (a is c)
