@@ -25,6 +25,17 @@ calc=lambda x,y:(x+y,x*y)
 res=calc(3,4)
 print(res)
 
+#4 Lambda function
+#Filter even number from a list
+n=[1,2,3,4,5,6]
+even=filter(lambda x:x%2==0,n)
+print(list(even))
+
+#5 Lambda function
+a=[1,2,3,4]
+b=map(lambda x:x*2,a)
+print(list(b))
+
 #Resursive function
 def factorial(m):
     if m==1 or m==0:
