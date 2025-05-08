@@ -1,3 +1,3 @@
 import random
 name=("Sujan","Sham","Ram","Hari","Karan")
-print(random.choice(name))
+print(f"The person who is eligible for next presentation is {random.choice(name)}")
